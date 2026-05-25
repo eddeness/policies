@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxNote — Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.7;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .app-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 60px auto;
+            padding: 0 24px 80px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #6e6e73;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #e8f4e8;
+            color: #1a7f37;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin-bottom: 24px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            padding: 36px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .card-icon {
+            font-size: 28px;
+            margin-bottom: 14px;
+        }
+
+        .card h2 {
+            font-size: 21px;
+            font-weight: 650;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        .card p {
+            color: #4a4a52;
+            font-size: 16px;
+        }
+
+        .highlight-card {
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            color: white;
+        }
+
+        .highlight-card h2,
+        .highlight-card p {
+            color: white;
+        }
+
+        .list {
+            list-style: none;
+            margin-top: 12px;
+        }
+
+        .list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 8px 0;
+            color: #4a4a52;
+            font-size: 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .list li:last-child {
+            border-bottom: none;
+        }
+
+        .list li::before {
+            content: "✓";
+            color: #34c759;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .updated {
+            text-align: center;
+            color: #aeaeb2;
+            font-size: 14px;
+            margin-top: 48px;
+        }
+
+        .contact-link {
+            color: #007AFF;
+            text-decoration: none;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 34px; }
+            .card { padding: 24px; }
+            header { padding: 16px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <div class="badge">🔒 Privacy First</div>
+        <h1>Privacy Policy</h1>
+        <p>VoxNoteAI is built with your privacy at its core. Everything stays on your device.</p>
+    </div>
+
+    <!-- On-device processing -->
+    <div class="card">
+        <div class="card-icon">📱</div>
+        <h2>Everything runs on your device</h2>
+        <ul class="list">
+            <li>Audio recording and storage — on device</li>
+            <li>Speech-to-text transcription via WhisperKit — on device</li>
+            <li>AI summarization via MLX — on device</li>
+            <li>Translation via Apple Translation API — on device</li>
+        </ul>
+    </div>
+
+    <!-- Network usage -->
+    <div class="card">
+        <div class="card-icon">🌐</div>
+        <h2>Network usage</h2>
+        <p>VoxNote requires an internet connection only to download AI models (WhisperKit and MLX) on first use. These models are downloaded from Hugging Face and Apple's servers and cached locally. After the initial download, VoxNote works fully offline.</p>
+    </div>
+
+    <!-- Microphone -->
+    <div class="card">
+        <div class="card-icon">🎤</div>
+        <h2>Microphone access</h2>
+        <p>VoxNote requests microphone access solely to record audio for transcription. Audio is processed entirely on your device and is never uploaded anywhere.</p>
+    </div>
+
+    <!-- Analytics -->
+    <div class="card">
+        <div class="card-icon">📊</div>
+        <h2>Analytics</h2>
+        <p>VoxNote currently does not collect any analytics data. Future versions may include anonymous, non-identifiable usage analytics (such as feature usage frequency and average recording duration) to help improve the app experience. Any such data would never be linked to your identity.</p>
+    </div>
+
+    <p class="updated">Last updated: May 2026</p>
+
+</div>
+
+</body>
+</html>
