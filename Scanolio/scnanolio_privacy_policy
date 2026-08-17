@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scanolio — Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    line-height: 1.6;
+    color: #222;
+  }
+  h1 {
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 8px;
+  }
+  .emoji {
+    font-size: 28px;
+    margin-top: 28px;
+  }
+  .tagline {
+    color: #666;
+    margin-top: 0;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    background: #f2f2f2;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin-top: 6px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  a {
+    color: #0066cc;
+  }
+  .footer {
+    margin-top: 48px;
+    font-size: 13px;
+    color: #888;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div>📄</div>
+<h1>Scanolio</h1>
+<p class="tagline">Document scanner</p>
+<span class="badge">🔒 No account, no tracking, no internet required</span>
+
+<h1 style="margin-top:36px;">Privacy Policy</h1>
+<p>Scanolio is a document scanning app. It does not ask you to create an account or provide any personal information, and it does not send your documents anywhere.</p>
+
+<div class="emoji">📷</div>
+<h2>Camera access</h2>
+<p>Scanolio uses your camera only to scan documents. Photos are captured, corner-detected, and processed entirely on your device using on-device machine learning — nothing is uploaded to a server for this.</p>
+
+<div class="emoji">💾</div>
+<h2>Where your scans are stored</h2>
+<p>Scanned documents, page images, and folder organization are stored locally in the app's private storage on your device. Nothing is sent to us or to any third-party server. If you uninstall the app, this data is deleted along with it.</p>
+
+<div class="emoji">🚫</div>
+<h2>We collect zero personal data</h2>
+<p>Scanolio does not collect, store, or transmit any personal data. There is no account, no login, and no user profile of any kind.</p>
+
+<div class="emoji">📤</div>
+<h2>Sharing your documents</h2>
+<p>When you choose to share a scan as a PDF, Scanolio hands it to Android's built-in share sheet — you pick where it goes (email, messaging apps, cloud storage, etc.). We don't see or handle that transfer, and the app doesn't send it anywhere on its own.</p>
+
+<div class="emoji">🚷</div>
+<h2>What we never do</h2>
+<ul>
+  <li>No account or login required</li>
+  <li>No data sold or shared with third parties</li>
+  <li>No access to contacts, location, or microphone</li>
+</ul>
+
+<div class="emoji">🔄</div>
+<h2>Changes to this policy</h2>
+<p>If Scanolio ever adds a feature that changes how data is handled (for example, optional cloud backup), this page will be updated first and the update will be reflected in the app.</p>
+
+<div class="emoji">✉️</div>
+<h2>Contact</h2>
+<p>Questions about this privacy policy? Reach out at <a href="mailto:arrrpark@icloud.com">arrrpark@icloud.com</a></p>
+
+<div class="footer">
+  Last updated: August 2026
+</div>
+
+</body>
+</html>
